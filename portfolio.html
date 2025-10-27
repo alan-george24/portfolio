@@ -12,9 +12,9 @@
         <div class="container">
             <nav class="navbar">
                 <label>
-                   <a href="">About</a>
+                   <a href="#">About</a>
                    <a href="#skills">Skills</a>
-                   <a href="#project">Projects</a>
+                   <a href="#projects">Projects</a>
                    <a href="#contact">Contact</a>
                    </label>
                 </nav>
@@ -32,7 +32,7 @@
     <!-- <img src="1.png" alt="Profile Picture"> -->
 </div>
 <div class="bio">
-    <h2 id="bi">What I'm ?</h2>
+    <h2 id="bio">What am I ?</h2>
     <b><p id="bio">I’m a passionate developer with hands-on experience in
          creating responsive and user-friendly web interfaces. 
         I specialize in C programming, HTML, and CSS, and enjoy building clean,
@@ -75,53 +75,50 @@
 
 
 
- <section3>
-    <div class="projects">
-        <h2 class="project">Projects</h2><br><br>
-        <div class="login1"><p id="login1">1. Amazon Login page </p></div>
-        <img src="images/amazon.png" alt="Amazon Login Page" id="amazon">
+ <section class="projects-section" id="projects">
+  <h2 class="section-title">Projects</h2>
 
-        <p id="login2">2. Spotify Login page </p>
-        <img src="images/spotify.png" alt="spotify Login Page" id="spotify"> 
-        
+  <div class="projects">
+    <div class="project">
+      <img src="images/amazon.png" alt="Amazon Login Page" id="amazon">
+      <p class="project-title">1. Amazon Login Page</p>
     </div>
-    </section3>
 
-            
-                <section4 class="contact-section">
-    <h2 class="section-title">Get in Touch</h2>
-    <p class="section-subtitle">I'd love to hear from you! Fill out the form below.</p>
+    <div class="project">
+      <img src="images/spotify.png" alt="Spotify Login Page" id="spotify">
+      <p class="project-title">2. Spotify Login Page</p>
+    </div>
+  </div>
+</section>
 
-    <form class="contact-form">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" name="first-name" required />
-        </div>
-        <div class="form-group">
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" name="last-name" required />
-        </div>
+
+
+<section class="contact-section" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p class="section-subtitle">I'd love to hear from you! Fill out the form below.</p>
+
+  <form class="contact-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required />
       </div>
-
-      <div class="form-group full-width">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required />
       </div>
+    </div>
 
-      <div class="form-group full-width">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-      </div>
+    <div class="form-group full-width">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+    </div>
 
-      <button type="submit" class="submit-btn">Send Message</button>
-    </form>
+    <div class="form-group full-width">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
 
-            </section4>
-
-
-            </nav>
-        </div>
-           
-</body>
-</html>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
